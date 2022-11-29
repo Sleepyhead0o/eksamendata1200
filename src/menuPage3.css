@@ -1,5 +1,5 @@
 /*Navigasjonsbar*/
-.topnav {   
+.topnav {
     letter-spacing: 4px;
     position: relative;
     float: right;
@@ -16,7 +16,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-        .bilde1, .bilde1-tekst{
+    .bilde1, .bilde1-tekst{
         float: none;
         display: block;
         text-align: center;
@@ -39,7 +39,7 @@
         flex-direction: column;
     }
 
-   .menu-item {
+    .menu-item {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -71,9 +71,9 @@
 }
 
 img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .bilde1-tekst {
@@ -225,10 +225,10 @@ footer {
 }
 
 .footer-grid-container{
-display: grid;
-grid-template-columns: 1fr 1fr 2fr;
-padding: 10px;
-text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 10px;
+    text-align: center;
 }
 
 .kontakt {
@@ -238,9 +238,9 @@ text-align: center;
 .epost a {
     color:brown;
 }
- .epost a:hover {
+.epost a:hover {
     color: goldenrod;
- }
+}
 
 .aapningstider {
     margin: auto;
