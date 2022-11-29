@@ -1,0 +1,89 @@
+/*Reservasjon av bord*/
+
+*  {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation-form {
+    background-color: #eff0f1;
+    max-width: 600px;
+    flex: 1;
+    border-radius: 10px;
+    border: 1px solid #999;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.form-header {
+    border-bottom: 1px solid #cccccc;
+    padding: 15px 0;
+}
+.form-header h1 {
+    text-align: center;
+    font-size: 60px;      /*28px*/
+    color: black;
+    font-family: cookie;
+}
+.form-body {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.row {
+    display: flex;
+}
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+label {
+    color: #1BBA93;
+    font-size: 17px;
+    font-family: Raleway;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"]{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: sans-serif;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+.form-footer {
+    display: flex;
+    justify-content: center;
+}
+.form-btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: #1BBA93;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+@media only screen and  (max-width: 500px){
+    .row {
+        flex-direction: column;
+    }
+    .form-btn {
+        flex: 1;
+    }
+}

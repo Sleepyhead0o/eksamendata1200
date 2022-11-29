@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookingPage</title>
+    <link rel="stylesheet" href="KladdbookingPage2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<!-- Navbar -->
+<div class="navbar" id="hoved-navbar">
+    <a href="welcomePage1.html" class="aktiv">CJM-HOUSE</a>
+    <a href="Kladdbookingpage2.html">Booking</a>
+    <a href="bookingPage2.html">Menu</a>
+    <a href="accessibilityPage4.html">Accessibility</a>
+    <a href="topicalPage5.html">Topical page</a>
+    <a id="navbar-button" href="javascript:void(0);" class="material-icons md-36" onclick="closeMenu()">menu</a>
+</div>
+
+<!-- Reserver bord -->
+<div class="container">
+    <div class="innhold">
+        <h1 class="reserverB-overskrift">Reserver Bord</h1>
+        <p>Skal du bestille bord for idag anbefaler vi deg å ringe da vi ikke klarer å svare alle forespørsler fort nok!</p>
+        <form id="contact" action="" method="post">
+            <label for="navn"><b>Skriv inn navnet ditt</b></label>
+            <p><input class="boks" type="text" placeholder="Navn" name="navn"required></p>
+
+            <label for="antall"><b>Hvor mange gjester?</b></label>
+            <p><input class="boks" type="number" placeholder="Antall" name="antall"required></p>
+
+            <label for="dato"><b>Ønsket tid og dato?</b></label>
+            <p><input class="boks" type="datetime-local" placeholder="Dato og tid" name="dato"required></p>
+
+            <label for="melding"><b>Har dere noen spesielle ønsker?</b></label>
+            <p><input class="boks" type="text" placeholder="Spesiell ønske" name="melding"required></p>
+
+            <p><button class="grey-btn" type="submit">Send reservering</button></p>
+        </form>
+
+    </div>
+</div>
+
+<!-- For å laste Javascript -->
+<script type="text/javascript" src="KladdbookingPage2.js"></script>
+<body>
+
+</body>
+</html>
