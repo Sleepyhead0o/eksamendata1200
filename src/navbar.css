@@ -35,7 +35,7 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .navbar a:not(:first-child) {display: none;}
     #navbar-button {
         float: right;
@@ -43,7 +43,7 @@ body{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive #navbar-button{
         position: absolute;
