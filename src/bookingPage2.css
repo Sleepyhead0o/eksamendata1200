@@ -1,18 +1,31 @@
 /* Salgspitch */
-
-
 .transbox {
     margin: auto;
     background-color: #00000077;
     text-align: center;
     font-size: larger;
+    position: relative;
+    top: 500px;
 }
-
-.transbox p, h1 {
+.salgspitch-heading {
     color: white;
-    font-family: "Times New Roman";
-}
+    font-family: mixta-pro;
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-weight: 500;
 
+}
+.salgspitch-paragraph {
+    color: white;
+    font-family: mixta-pro;
+    font-weight: 200;
+    padding-bottom: 0;
+    padding-top: 0;
+    /*line-height: 38px;*/
+}
+.gul-tekst {
+    color: #f1e36f;
+}
 
 .parallakseBilde {
     background-image: url("bookingpageImage1.jpeg");
@@ -25,12 +38,24 @@
     background-size: cover;
     background-position-y: bottom;
 }
+@media screen and (max-width: 500px) {
+    .salgspitch-paragraph {
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .salgspitch-paragraph {
+        font-size: 20px;
+        line-height: 20px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
 
 /* Reservasjon av bord */
 
 *  {
     margin: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
 }
 .container {
