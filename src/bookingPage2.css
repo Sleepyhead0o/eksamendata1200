@@ -89,14 +89,12 @@
 
 }
 .rad {
-    width: 300px;
-    height: 300px;
+
     flex: 1;
     display: flex;
     flex-direction: column;
     margin: 5px;
-    width: -moz-fit-content;
-    width: fit-content;
+
 }
 
 .selskapslokaler-tekst {
