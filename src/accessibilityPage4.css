@@ -4,7 +4,7 @@
 
 .kap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
@@ -13,7 +13,7 @@
     width: 60%;
 }
 
-.kap {
+.kap-ubilde {
     width: 90%;
 }
 
@@ -21,4 +21,13 @@
     width: 30%;
     height: auto;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .kap {
+        flex-direction: column;
+    }
+    .access-img {
+        width: 60%;
+    }
 }
