@@ -33,26 +33,7 @@ header{
     border-style: solid;
     border-color: #f1e36f;
 }
-/* Footer */
-footer{
+
+body {
     background-color: #161b20;
-    width: 100%;
-    color: white;
-    margin: 2rem auto 1rem;
-    display: grid;
-    padding: 2rem;
-}
-
-footer h3{
-    font-family: Copperplate;
-    font-size: 30px;
-    color: #f1e36f;
-}
-
-footer a{
-    color: white;
-}
-
-footer a:hover{
-    color: #f1e36f;
 }
