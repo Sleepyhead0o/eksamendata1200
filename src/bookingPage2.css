@@ -4,8 +4,9 @@
     background-color: #00000077;
     text-align: center;
     font-size: larger;
-    position: relative;
-    top: 500px;
+    /* test med å fjerne */
+    /*position: relative;
+    top: 500px*/;
 }
 .salgspitch-heading {
     color: white;
@@ -36,6 +37,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
+    /*test */
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (max-width: 500px) {
     .salgspitch-paragraph {
@@ -164,7 +168,7 @@
     margin: 10px 5px;
 }
 label {
-    color: #1BBA93;
+    color: blue; /* høy kontrast*/
     font-size: 17px;
     font-family: Raleway;
 }
@@ -192,7 +196,7 @@ textarea {
 .form-btn {
     padding: 10px 20px;
     color: white;
-    background-color: #1BBA93;
+    background-color: blue; /* høy kontrast*/
     border: none;
     border-radius: 5px;
     font-size: 17px;
