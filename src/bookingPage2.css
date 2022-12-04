@@ -202,6 +202,11 @@ textarea {
     font-size: 17px;
     cursor: pointer;
 }
+
+body {
+    background-color: #161b20;
+}
+
 @media only screen and  (max-width: 500px){
     .row {
         flex-direction: column;
