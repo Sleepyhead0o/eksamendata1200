@@ -1,0 +1,24 @@
+.hoved {
+    margin-left: 50px;
+}
+
+.kap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.kap-bilde {
+    width: 60%;
+}
+
+.kap {
+    width: 90%;
+}
+
+.access-img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
