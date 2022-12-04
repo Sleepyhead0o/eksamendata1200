@@ -217,31 +217,3 @@ img {
     text-align: center;
     font-size: larger;
 }
-
-footer {
-    background-color: lightgoldenrodyellow;
-    letter-spacing: 4px;
-    padding-left: 50px;
-}
-
-.footer-grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    padding: 10px;
-    text-align: center;
-}
-
-.kontakt {
-    margin: auto; /*for å sentrere en hel div blokk*/
-}
-
-.epost a {
-    color:brown;
-}
-.epost a:hover {
-    color: goldenrod;
-}
-
-.aapningstider {
-    margin: auto;
-}
