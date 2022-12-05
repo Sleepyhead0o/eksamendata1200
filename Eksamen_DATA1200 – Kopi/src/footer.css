@@ -1,0 +1,37 @@
+footer {
+    background-color: #161b20;
+    color: white;
+}
+
+footer h3 {
+    color: #f1e36f;
+}
+
+.footer-grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    text-align: left;
+    letter-spacing: 4px;
+    font-size: smaller;
+    margin: 25px 60px 75px 60px;
+    margin-bottom: 10px;
+}
+#gridcolumn-1-2{
+    padding-top: 4%;
+    padding-left: 2%;
+}
+.epost a {
+    color: white;
+}
+.epost a:hover {
+    color: #f1e36f;
+}
+
+.kart {
+    width: 500px;
+    heigh: 200px;
+    border: 0;
+}
