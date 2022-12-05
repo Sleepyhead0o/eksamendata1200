@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessibility-page</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer-accessibility.css">
+    <link rel="stylesheet" href="accessibilityPage4.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<!-- Navbar -->
+<div class="navbar" id="hoved-navbar">
+    <a href="welcomePage1.html" class="aktiv">CJM-HOUSE</a>
+    <a href="bookingPage2.html">Booking</a>
+    <a href="menuPage3.html">Menu</a>
+    <a href="accessibilityPage4.html">Accessibility</a>
+    <a href="topicalPage5.html">Topical page</a>
+    <a id="navbar-button" href="javascript:void(0);" class="material-icons md-36" onclick="closeMenu()">menu</a>
+</div>
+    
+    <br><br>
+<!-- Accessibility -->
+<div class="hovedgrid">
+    <h1>Accessibility</h1>
+    
+    <div class="kap">
+        <br><br>
+        <p class="kap-ubilde">Gjennom koding av nettsiden vår, la vi mest vekt på god Accessibility.
+            En av mange faktorer vi endte opp med å ha med var en god struktur på nettsiden: vi valgte blant annet å ha
+            med en lik header med en oversiktlig navigasjonsbar på hver av sidene.
+            På den måten kan brukere av nettsiden vår, enkelt og effektivt navigere seg rundt omkring på siden.
+            I tillegg har vi med en footer med relevant kontaktinformasjon, åpningstider og adresse, som mest sannsynlig
+            er det første brukere ønsker å vite.
+            Alle sidene følger med kontaktinformasjon, åpningstider og adresse på bunnen av siden, slik at brukere ikke
+            trenger å gå gjennom flere sider for å finne de mest relevante informasjonene.
+            Tekst strukturen på hver av sidene er kort og ryddig, og tar kun for seg nødvendig informasjon.</p>
+
+    </div>
+
+    <h2> Valg av farger og layout </h2> <br>
+
+    <div class="kap">
+        <p class="kap-bilde"> Videre med hensyn til brukere med svaksynthet brukte vi en funksjon kalt tabindex.
+            Med tabindex så er det mulig for brukerne å navigere gjennom siden med tastatur.
+            På den måten kan brukere med svaksynt effektivt og selvstendig gå igjennom alle sidene.
+            Vi kodet også inn «alt tags» under bildene på booking-siden til å hjelpe brukere til å forstå hva det er bildet av.
+            I tillegg er fargevalget vårt på nettsiden ganske enkelt og er tilpasset brukere med fargeblindhet.
+            Et eksempel er fargene til overskriften på rettene under menu-siden.
+            Her valgte vil fargene blå og rød, slik at brukere med fargeblindhet lett kunne skille farger.
+            Et annet eksempel er fargevalget på reserver bord skjema under booking-siden.
+            Her er bakgrunnen hvit og fargen på skriften blå, som gir høykontrast mellom tekst og bakgrunn som 
+            igjen fører til at det blir mer synligere å lese ordene. 
+            <br><br>
+             På denne nettsiden og topical page nettsiden var det viktig for oss å velge en layout var enkel og minimalistisk 
+             ettersom disse nettsidene inneholder mye tekst. Det var ment slik for å gjøre det enklere for både brukere å lese 
+             all teksten som står der, og for at det ikke skulle bli overveldende med både farger og informasjon 
+             I enkelte nettsider har det også blitt lagt inn knapper (utenom navigasjonsknappene) som skal gjøre det enklere 
+             og raskere å navigere seg på nettsidene. </p>
+        <img class="access-img" src="accessibilityPage4_bilde_1.png" alt="Bilde av html kode">
+    </div>
+
+
+</div>
+
+<footer>
+    <div class="footer-grid-container" class="contact">
+        <div> <br><br>
+            <h3>Kontakt oss på mail:</h3>
+            <br>
+            <div class="epost">
+                <a href="mailto:s374172@oslomet.no">Celina Eriksen Jåsund -
+                    s374172@oslomet.no</a>
+                <br><br><br>
+                <a href="mailto:s346080@oslomet.no">Mathusha Sujiharan -
+                    s346080@oslomet.no</a>
+                <br><br><br>
+                <a href="mailto:s375072@oslomet.no">Jenny Huynh Le -
+                    s375072@oslomet.no</a>
+            </div>
+        </div>
+
+        <div> <br><br>
+            <h3>ÅPNINGSTIDER:</h3>
+            <br>
+            <p>MANDAG-FREDAG 14:00-21:00</p>
+            <br>
+            <p>LØRDAG 14:00-22:00</p>
+            <br>
+            <p>SØNDAG 14:00-21:00</p>
+        </div>
+
+        <div class="kart">
+            <h3>Adresse</h3>
+            <p> Casa Mia - Pilestredet 32, 0166 OSLO.</p>
+            <iframe class="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.7273741535764!2d10.7357838!3d59.920071799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7be22c2035%3A0xf51095d184aa1954!2sPilestredet%2032%2C%200166%20Oslo!5e0!3m2!1sno!2sno!4v1664790017038!5m2!1sno!2sno" allowfullscreen="" width="500" height="200" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+<script type="text/javascript" src="navbar.js"></script>

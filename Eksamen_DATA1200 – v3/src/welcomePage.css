@@ -1,0 +1,39 @@
+/* header */
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("wp-bg-image.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.FrontPageTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.FrontPageTitle h1{
+    font-size: 57px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: #161b20;
+    background-color: whitesmoke;
+    opacity: 90%;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f1e36f;
+}
+
+body {
+    background-color: #161b20;
+}

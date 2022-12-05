@@ -1,0 +1,42 @@
+.hovedgrid {
+    margin-left: 90px;
+}
+p{
+    line-height: 2.5;
+}
+
+.kap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.kap-bilde {
+    width: 60%;
+}
+
+img{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.kap-ubilde {
+    width: 90%;
+}
+
+.access-img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 700px) {
+    .kap {
+        flex-direction: column;
+    }
+    .access-img {
+        width: 60%;
+    }
+}
