@@ -1,0 +1,27 @@
+body{
+    max-width: auto;
+}
+.mega-div{
+    margin: 5%;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    
+}
+.tekstbokser{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+p{
+    line-height: 2.0;
+}
+h2{
+    margin-left: 3%;
+}
+ol{
+    line-height: 2.5;
+    margin-left: 12%;
+}
+h3{
+    margin-left: 10%;
+}

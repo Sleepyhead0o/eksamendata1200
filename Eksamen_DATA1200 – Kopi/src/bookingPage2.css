@@ -1,0 +1,218 @@
+/* Salgspitch */
+.transbox {
+    margin: auto;
+    background-color: #00000077;
+    text-align: center;
+    font-size: larger;
+    /* test med å fjerne */
+    /*position: relative;
+    top: 500px*/;
+}
+.salgspitch-heading {
+    color: white;
+    font-family: mixta-pro;
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-weight: 500;
+
+}
+.salgspitch-paragraph {
+    color: white;
+    font-family: mixta-pro;
+    font-weight: 200;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.gul-tekst {
+    color: #f1e36f;
+}
+
+.parallakseBilde {
+    background-image: url("bookingpageImage1.jpeg");
+    min-height: 800px;
+
+    /* parallakse */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    /*test */
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+    .salgspitch-paragraph {
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .salgspitch-paragraph {
+        font-size: 20px;
+        line-height: 20px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Selskapslokale */
+.selskapslokale {
+    background-color: #38352a;
+    height: auto;
+}
+.selskapslokale-heading1 {
+    font-family: mixta-pro;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 15px 30px;
+    margin-top: 0;
+}
+.selskapslokale-heading2 {
+    font-family: Arial;
+    color: #fff;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+.selskapslokale-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.rad {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+}
+
+.bildecontainer {
+    position: relative;
+}
+
+.bilde-opphavsrett {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+}
+
+.selskapslokaler-tekst {
+    text-align: left;
+    font-weight: 200;
+    font-family: Arial;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+.selskapslokale-img {
+    max-width: 100%;
+}
+
+/* Reservasjon av bord */
+
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: #161b20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.reservation-form {
+    background-color: #eff0f1;
+    max-width: 600px;
+    flex: 1;
+    border-radius: 10px;
+    border: 1px solid #999;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.form-header {
+    border-bottom: 1px solid #cccccc;
+    padding: 15px 0;
+}
+.form-header h1 {
+    text-align: center;
+    font-size: 60px;      /*28px*/
+    color: black;
+    font-family: cookie;
+}
+.form-body {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.row {
+    display: flex;
+}
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+label {
+    color: blue; /* høy kontrast*/
+    font-size: 17px;
+    font-family: Raleway;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"]{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: sans-serif;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+.form-footer {
+    display: flex;
+    justify-content: center;
+}
+.form-btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: blue; /* høy kontrast*/
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #161b20;
+}
+
+@media only screen and  (max-width: 500px){
+    .row {
+        flex-direction: column;
+    }
+    .form-btn {
+        flex: 1;
+    }
+}

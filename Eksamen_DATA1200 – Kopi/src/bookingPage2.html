@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking-page</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer-booking.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mixta-pro">
+    <link rel="stylesheet" href="bookingPage2.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar" id="hoved-navbar" tabindex="0">
+    <a href="welcomePage1.html" class="aktiv" tabindex="1">CJM-HOUSE</a>
+    <a href="bookingPage2.html" tabindex="2">Booking</a>
+    <a href="menuPage3.html" tabindex="3">Menu</a>
+    <a href="accessibilityPage4.html" tabindex="4">Accessibility</a>
+    <a href="topicalPage5.html" tabindex="5">Topical page</a>
+    <a id="navbar-button" href="javascript:void(0);" class="material-icons md-36" onclick="closeMenu()" tabindex="6">menu</a>
+</div>
+
+<!-- Salgspitch -->
+<div class="bildecontainer">
+<div class="parallakseBilde">
+    <div class="transbox">
+        <h1 class="salgspitch-heading" tabindex="7">
+             I hjertet av Lillestrøm finner du
+            <span class="gul-tekst">CJM-House <br> restaurant & selskapslokaler</span>
+        </h1>
+
+        <p class="salgspitch-paragraph">Det er lett å føle seg hjemme her. Atmosfæren er sosial, åpen og innbydende. Menyen er en fantastisk blanding mellom alle middelhavslandene laget av høykvalitets ingredienser, Casa Mia har raskt blitt favoritter blant lokalbefolkningen. Mange retter er perfekte å dele, og på Casa Mia serverer vi god mat til en god pris - og vi holder det alltid vennlig.</p>
+    </div>
+</div>
+    <a href="https://www.dn.no/smak/lunsjguiden/lunsj/lunsjguiden/mageplask-pa-sorenga/2-1-432748" target="_blank" class="bilde-opphavsrett">DN smak</a>
+</div>
+
+<!-- Selskapslokale -->
+<div class="selskapslokale">
+    <h1 class="selskapslokale-heading1" tabindex="8">
+        <span class="gul-tekst">SELSKAPSLOKALE</span> Lillestrøm
+    </h1>
+    <h2 class="selskapslokale-heading2">Vi er flinke til å arrangere selskap for våre gjester på CJM-House. Her er noe av det vi tilbyr:</h2>
+
+    <div class="selskapslokale-container">
+        <div class="rad">
+            <div class="bildecontainer">
+            <img class="selskapslokale-img" src="chambre-separee.jpg" alt="Selskapslokalet chambre separee" >
+                <a href="https://www.mirabel.no/" target="_blank" class="bilde-opphavsrett">Mirabel</a>
+            </div>
+            <div class="selskapslokaler-tekst">
+                <h5 class="gul-tekst" tabindex="9">Chambre séparée</h5>
+                <p>Vi har to flotte langbord i vår Chambre séparée i 2.etasje vår restaurant Casa Mia, som rommer 20 sitteplasser. Det er et unikt rom med god stemning. Perfekt for et godt lag med venner og kollegaer.</p>
+            </div>
+        </div>
+
+        <div class="rad">
+            <div class="bildecontainer">
+            <img class="selskapslokale-img" src="Galleriet.jpg" alt="Selskapslokalet Galleriet" >
+                <a href="https://www.grandbergen.no" target="_blank" class="bilde-opphavsrett">Grand Bergen</a>
+            </div>
+            <div class="selskapslokaler-tekst">
+                <h5 class="gul-tekst" tabindex="10">Galleriet</h5>
+                <p>Galleriet er et unikt eventlokale på 500m2, fordelt på 2-etasjer, som ligger midt i Lillestrøm sentrum. Det er plass til 350 sitteplasser, og egner seg best til bryllup, firmafester og konfirmasjoner. </p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- Reserver Bord -->
+<div class="container">
+    <form class="reservation-form">
+        <div class="form-header">
+            <h1>Reserver bord</h1>
+        </div>
+        <div class="form-body">
+            <div class="row">
+                <div class="input-group">
+                    <label for="fornavn" >Fornavn</label>
+                    <input id="fornavn" type="text" tabindex="11" />
+                </div>
+                <div class="input-group">
+                    <label for="etternavn">Etternavn</label>
+                    <input id="etternavn" type="text" tabindex="12"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" tabindex="13"/>
+                </div>
+                <div class="input-group">
+                    <label for="antgjester">Antall gjester</label>
+                    <input id="antgjester" type="number" tabindex="14"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label for="dato">Dato</label>
+                    <input id="dato" type="date" tabindex="15"/>
+                </div>
+                <div class="input-group">
+                    <label for="tidspunkt">Tidspunkt</label>
+                    <input id="tidspunkt" type="time" tabindex="16"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label for="onsker">Har dere noen spesielle ønsker?</label>
+                    <textarea id="onsker" tabindex="17"> </textarea>
+                </div>
+            </div>
+
+            <div class="form-footer">
+                <button class="form-btn" tabindex="18">Send Reservering</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<hr>
+
+<footer>
+    <div class="footer-grid-container" class="contact">
+        <div>
+            <h3>Kontakt oss på mail:</h3>
+            <br>
+            <div class="epost">
+                <a href="mailto:s374172@oslomet.no">Celina Eriksen Jåsund -
+                    s374172@oslomet.no</a>
+                <br><br><br>
+                <a href="mailto:s346080@oslomet.no">Mathusha Sujiharan -
+                    s346080@oslomet.no</a>
+                <br><br><br>
+                <a href="mailto:s375072@oslomet.no">Jenny Huynh Le -
+                    s375072@oslomet.no</a>
+            </div>
+        </div>
+
+        <div>
+            <h3>ÅPNINGSTIDER:</h3>
+            <br>
+            <p>MANDAG-FREDAG 14:00-21:00</p>
+            <br>
+            <p>LØRDAG 14:00-22:00</p>
+            <br>
+            <p>SØNDAG 14:00-21:00</p>
+        </div>
+
+        <div class="kart">
+            <h3>Adresse</h3>
+            <p> Casa Mia - Pilestredet 32, 0166 OSLO.</p>
+            <iframe class="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.7273741535764!2d10.7357838!3d59.920071799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7be22c2035%3A0xf51095d184aa1954!2sPilestredet%2032%2C%200166%20Oslo!5e0!3m2!1sno!2sno!4v1664790017038!5m2!1sno!2sno" allowfullscreen="" width="500" height="200" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+<script type="text/javascript" src="navbar.js"></script>
